@@ -15,6 +15,8 @@ h3,
 p,
 li {
     color: green;
+
+
 }
 
 img {
@@ -39,6 +41,7 @@ nav ul {
 
 nav li {
     display: inline;
+    list-style: none;
 }
 
 nav a {
@@ -58,7 +61,7 @@ nav a:hover {
     background-color: white;
 }
 
-#banner img{
+#banner img {
     width: 60%;
     height: auto;
 }
@@ -83,4 +86,7 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+ul {
+    list-style: none;
 }
